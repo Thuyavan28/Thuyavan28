@@ -1,0 +1,94 @@
+<svg width="330" height="480" viewBox="0 0 330 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="strap" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2fb3"/>
+      <stop offset="100%" stop-color="#7209b7"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1030"/>
+      <stop offset="100%" stop-color="#2b0a4a"/>
+    </linearGradient>
+    <radialGradient id="photoRing" cx="50%" cy="50%" r="50%">
+      <stop offset="85%" stop-color="#1b1030"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </radialGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#ff2fb3" flood-opacity="0.45"/>
+    </filter>
+    <style>
+      .swing { transform-origin: 165px 34px; animation: sway 3.2s ease-in-out infinite; }
+      @keyframes sway {
+        0%   { transform: rotate(-4.5deg); }
+        50%  { transform: rotate(4.5deg); }
+        100% { transform: rotate(-4.5deg); }
+      }
+      .glint { animation: shine 3.2s ease-in-out infinite; }
+      @keyframes shine { 0%,100%{opacity:0} 45%{opacity:0} 50%{opacity:.55} 55%{opacity:0} }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100%{opacity:.5} 50%{opacity:1} }
+      .clip { animation: sway 3.2s ease-in-out infinite; transform-origin: 165px 34px; }
+    </style>
+  </defs>
+
+  <g class="swing">
+    <!-- lanyard strap -->
+    <rect x="150" y="0" width="30" height="120" fill="url(#strap)" rx="4"/>
+    <text x="165" y="70" text-anchor="middle" font-size="9" fill="#ffffff" opacity="0.85"
+          font-family="monospace" transform="rotate(-90 165 70)">THUYAVAN.DEV ✦ CODE ✦ MERN</text>
+
+    <!-- clip -->
+    <rect x="148" y="112" width="34" height="16" rx="4" fill="#c9c9c9"/>
+    <circle cx="165" cy="132" r="9" fill="none" stroke="#c9c9c9" stroke-width="5"/>
+
+    <!-- card -->
+    <g filter="url(#cardShadow)">
+      <rect x="35" y="140" width="260" height="330" rx="20" fill="url(#cardBg)" stroke="#ff2fb3" stroke-width="2"/>
+
+      <!-- glint sweep -->
+      <rect class="glint" x="35" y="140" width="70" height="330" rx="20" fill="#ffffff"/>
+
+      <text x="58" y="175" font-size="11" fill="#8b949e" font-family="monospace">DEVELOPER ID</text>
+      <text x="240" y="175" text-anchor="end" font-size="11" fill="#8b949e" font-family="monospace">TM-2027</text>
+
+      <circle cx="165" cy="245" r="55" fill="url(#photoRing)" stroke="#ff2fb3" stroke-width="3"/>
+      <circle cx="165" cy="230" r="22" fill="#3a2a5c"/>
+      <path d="M120 285 q45 -35 90 0 v20 h-90 z" fill="#3a2a5c"/>
+
+      <text x="165" y="330" text-anchor="middle" font-size="24" font-weight="700" fill="#ff2fb3"
+            font-family="'Segoe UI', sans-serif">Thuyavan M</text>
+      <text x="165" y="352" text-anchor="middle" font-size="12" fill="#00e5ff" letter-spacing="1"
+            font-family="monospace">FULL-STACK / MERN DEVELOPER</text>
+      <text x="165" y="372" text-anchor="middle" font-size="11" fill="#8b949e">@Thuyavan28</text>
+
+      <g transform="translate(78,390)">
+        <rect width="46" height="20" rx="5" fill="#0d1117"/>
+        <text x="23" y="14" text-anchor="middle" font-size="10" fill="#61dafb" font-family="monospace">React</text>
+      </g>
+      <g transform="translate(132,390)">
+        <rect width="46" height="20" rx="5" fill="#0d1117"/>
+        <text x="23" y="14" text-anchor="middle" font-size="10" fill="#8cc84b" font-family="monospace">Node</text>
+      </g>
+      <g transform="translate(186,390)">
+        <rect width="46" height="20" rx="5" fill="#0d1117"/>
+        <text x="23" y="14" text-anchor="middle" font-size="10" fill="#f7df1e" font-family="monospace">JS/TS</text>
+      </g>
+
+      <!-- barcode -->
+      <g transform="translate(58,430)" fill="#c9c9c9">
+        <rect x="0" y="0" width="2" height="24"/><rect x="5" y="0" width="1" height="24"/>
+        <rect x="9" y="0" width="3" height="24"/><rect x="15" y="0" width="1" height="24"/>
+        <rect x="19" y="0" width="2" height="24"/><rect x="24" y="0" width="1" height="24"/>
+        <rect x="28" y="0" width="3" height="24"/><rect x="34" y="0" width="2" height="24"/>
+        <rect x="39" y="0" width="1" height="24"/><rect x="43" y="0" width="3" height="24"/>
+        <rect x="49" y="0" width="1" height="24"/><rect x="53" y="0" width="2" height="24"/>
+        <rect x="58" y="0" width="1" height="24"/><rect x="62" y="0" width="3" height="24"/>
+        <rect x="68" y="0" width="2" height="24"/><rect x="73" y="0" width="1" height="24"/>
+        <rect x="77" y="0" width="3" height="24"/><rect x="83" y="0" width="1" height="24"/>
+        <rect x="87" y="0" width="2" height="24"/><rect x="92" y="0" width="3" height="24"/>
+      </g>
+      <circle class="pulse" cx="270" cy="160" r="4" fill="#00ff88"/>
+    </g>
+  </g>
+
+  <text x="165" y="478" text-anchor="middle" font-size="11" fill="#8b949e" font-family="monospace">— drag me... just kidding, I'm an SVG ♥</text>
+</svg>
