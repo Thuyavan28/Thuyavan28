@@ -1,0 +1,63 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f7fb"/>
+      <stop offset="50%" stop-color="#eef1fb"/>
+      <stop offset="100%" stop-color="#e7ecfb"/>
+    </linearGradient>
+    <linearGradient id="nameGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#ff2fb3"/>
+      <stop offset="100%" stop-color="#7209b7"/>
+    </linearGradient>
+    <filter id="glowL"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .starL{animation:twinkleD 2.6s infinite ease-in-out}
+      .starL:nth-child(2){animation-delay:.4s}.starL:nth-child(3){animation-delay:.9s}
+      .starL:nth-child(4){animation-delay:1.3s}.starL:nth-child(5){animation-delay:1.8s}
+      .starL:nth-child(6){animation-delay:.6s}
+      @keyframes twinkleD{0%,100%{opacity:.15}50%{opacity:1}}
+      .floatL{animation:floatyD 3.4s ease-in-out infinite}
+      @keyframes floatyD{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      .typeLine{overflow:hidden;white-space:nowrap;animation:typeL 3.5s steps(38,end) infinite}
+      @keyframes typeL{0%{width:0}60%{width:100%}100%{width:100%}}
+      .cursorL{animation:blinkD 1s step-end infinite}
+      @keyframes blinkD{50%{opacity:0}}
+      .badgeL{animation:pulseD 2.4s ease-in-out infinite}
+      @keyframes pulseD{0%,100%{opacity:.55}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" rx="20" fill="url(#bgGradL)"/>
+
+  <circle class="starL" cx="55" cy="35" r="2" fill="#1b1030"/>
+  <circle class="starL" cx="1140" cy="55" r="2.4" fill="#1b1030"/>
+  <circle class="starL" cx="140" cy="220" r="1.8" fill="#1b1030"/>
+  <circle class="starL" cx="1080" cy="210" r="2" fill="#1b1030"/>
+  <circle class="starL" cx="620" cy="25" r="1.5" fill="#1b1030"/>
+  <circle class="starL" cx="900" cy="200" r="1.6" fill="#1b1030"/>
+
+  <text class="floatL" x="35" y="150" font-size="80" fill="#ff2fb3" opacity="0.18" font-family="monospace">&lt;/&gt;</text>
+  <text class="floatL" x="1060" y="170" font-size="70" fill="#00e5ff" opacity="0.18" font-family="monospace">{ }</text>
+
+  <text x="600" y="95" text-anchor="middle" font-size="48" font-weight="800"
+        font-family="'Segoe UI', Verdana, sans-serif" fill="url(#nameGradL)" filter="url(#glowL)">
+    Thuyavan M
+  </text>
+
+  <g>
+    <clipPath id="clipTypeL"><rect class="typeLine" x="0" y="0" width="0" height="40"/></clipPath>
+  </g>
+  <text x="600" y="135" text-anchor="middle" font-size="22" fill="#22223a" font-family="'Segoe UI', sans-serif" font-weight="600">
+    MERN Stack Developer &#8226; AI / LLM Engineer &#8226; CSE Undergraduate
+  </text>
+
+  <text x="600" y="170" text-anchor="middle" font-size="17" fill="#5c5c73" font-family="'Fira Code', monospace">
+    const role = "Building production-grade full-stack apps"<tspan class="cursorL" fill="#00e5ff">|</tspan>
+  </text>
+
+  <g class="badgeL" transform="translate(430,195)">
+    <rect width="340" height="34" rx="17" fill="#ff2fb31a" stroke="#ff2fb3" stroke-width="1.2"/>
+    <text x="170" y="22" text-anchor="middle" font-size="14" fill="#8a1a5c" font-family="monospace">🏆 1st Prize · Kings Engg College Expo 2026</text>
+  </g>
+</svg>
