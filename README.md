@@ -4,9 +4,9 @@
 <!-- ============================================================= -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Thuyavan M — MERN Stack Developer" src="./assets/banner-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg">
+  <img alt="Thuyavan M — MERN Stack Developer" src="./banner-dark.svg" width="100%">
 </picture>
 
 <div align="center">
@@ -30,7 +30,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- Swinging Lanyard ID Card — pure animated SVG -->
-<img src="./assets/thuyavan-lanyard.svg" alt="Thuyavan M ID badge" width="330"/>
+<img src="./thuyavan-lanyard.svg" alt="Thuyavan M ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="top">
