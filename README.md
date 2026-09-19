@@ -198,43 +198,25 @@ Identified and documented 8+ vulnerabilities (XSS, broken auth, open ports) acro
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
-  <img alt="Stats Banner" src="./banner-light.svg" width="100%" style="margin-bottom:12px"/>
-</picture>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Thuyavan28&hide_border=true&background=0D1117&stroke=334155&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&card_width=1180"/>
-  <img width="100%" src="https://streak-stats.demolab.com/?user=Thuyavan28&hide_border=true&background=FFFFFF&stroke=E2E8F0&ring=1D4ED8&fire=1D4ED8&currStreakLabel=1D4ED8&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&card_width=1180" alt="GitHub streak"/>
-</picture>
+<!-- ── Streak ── -->
+<img width="100%" src="https://streak-stats.demolab.com/?user=Thuyavan28&hide_border=true&background=0D1117&stroke=1e3a5f&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&card_width=900" alt="GitHub Streak"/>
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Thuyavan28&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=2563EB&icon_color=2563EB&text_color=c9d1d9&bg_color=0d1117&card_width=500"/>
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Thuyavan28&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=1D4ED8&icon_color=1D4ED8&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="GitHub stats"/>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Thuyavan28&layout=compact&langs_count=8&hide_border=true&title_color=2563EB&text_color=c9d1d9&bg_color=0d1117&card_width=500"/>
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thuyavan28&layout=compact&langs_count=8&hide_border=true&title_color=1D4ED8&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages"/>
-</picture>
+<!-- ── Stats + Top Languages ── -->
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Thuyavan28&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=2563EB&icon_color=2563EB&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats"/>
+&nbsp;
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thuyavan28&layout=compact&langs_count=8&hide_border=true&title_color=2563EB&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages"/>
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Thuyavan28&bg_color=0d1117&color=94A3B8&line=2563EB&point=ffffff&area=true&area_color=2563EB&hide_border=true&custom_title=Contribution%20Activity"/>
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Thuyavan28&bg_color=FFFFFF&color=64748B&line=1D4ED8&point=1D4ED8&area=true&area_color=BFDBFE&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution graph"/>
-</picture>
+<!-- ── Contribution Graph ── -->
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Thuyavan28&bg_color=0d1117&color=94A3B8&line=2563EB&point=2563EB&area=true&area_color=1e3a5f&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=Thuyavan28&theme=onestar&no-frame=true&row=1&column=7&margin-w=8"/>
-  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=Thuyavan28&theme=flat&no-frame=true&row=1&column=7&margin-w=8" alt="Trophies"/>
-</picture>
+<!-- ── Trophies ── -->
+<img width="95%" src="https://github-profile-trophy.vercel.app/?username=Thuyavan28&theme=onestar&no-frame=true&row=1&column=7&margin-w=10" alt="GitHub Trophies"/>
 
 </div>
 
@@ -247,38 +229,49 @@ Identified and documented 8+ vulnerabilities (XSS, broken auth, open ports) acro
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thuyavan28/Thuyavan28/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Thuyavan28/Thuyavan28/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Thuyavan28/Thuyavan28/output/github-contribution-grid-snake.svg">
-  <img width="100%" alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Thuyavan28/Thuyavan28/output/github-contribution-grid-snake-dark.svg">
+  <img width="100%" alt="contribution snake animation" src="https://raw.githubusercontent.com/Thuyavan28/Thuyavan28/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
 </div>
 
-> ⚙️ **To activate the snake:** Add this GitHub Actions workflow to your repo at `.github/workflows/snake.yml`:
->
-> ```yaml
-> name: Generate Snake
-> on:
->   schedule:
->     - cron: "0 0 * * *"
->   workflow_dispatch:
-> jobs:
->   generate:
->     runs-on: ubuntu-latest
->     steps:
->       - uses: Platane/snk/svg-only@v3
->         with:
->           github_user_name: Thuyavan28
->           outputs: |
->             dist/github-contribution-grid-snake.svg
->             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
->       - uses: crazy-max/ghaction-github-pages@v3
->         with:
->           target_branch: output
->           build_dir: dist
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
+<details>
+<summary>⚙️ <b>Click here to activate the snake (one-time setup)</b></summary>
+
+Create the file **`.github/workflows/snake.yml`** in your `Thuyavan28/Thuyavan28` repo with this content, then go to **Actions → Generate Snake → Run workflow** once to generate it:
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Thuyavan28
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+</details>
 
 <br/>
 
