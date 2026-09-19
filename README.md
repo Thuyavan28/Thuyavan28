@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg">
-  <img alt="Thuyavan M — MERN Stack Developer" src="./banner-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
+  <img alt="Thuyavan M — MERN Stack Developer" src="./banner-light.svg" width="100%">
 </picture>
 
 <div align="center">
@@ -199,6 +199,14 @@ Identified and documented 8+ vulnerabilities (XSS, broken auth, open ports) acro
 <div align="center">
 
 <picture>
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
+  <img alt="Stats Banner" src="./banner-light.svg" width="100%" style="margin-bottom:12px"/>
+</picture>
+
+<br/>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Thuyavan28&hide_border=true&background=0D1117&stroke=334155&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&card_width=1180"/>
   <img width="100%" src="https://streak-stats.demolab.com/?user=Thuyavan28&hide_border=true&background=FFFFFF&stroke=E2E8F0&ring=1D4ED8&fire=1D4ED8&currStreakLabel=1D4ED8&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&card_width=1180" alt="GitHub streak"/>
 </picture>
@@ -241,12 +249,36 @@ Identified and documented 8+ vulnerabilities (XSS, broken auth, open ports) acro
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thuyavan28/Thuyavan28/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Thuyavan28/Thuyavan28/output/github-contribution-grid-snake.svg">
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Thuyavan28/Thuyavan28/output/github-contribution-grid-snake-dark.svg">
+  <img width="100%" alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Thuyavan28/Thuyavan28/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
-<sub>⚙️ Needs the <code>Platane/snk</code> GitHub Action to generate — ask me and I'll write the workflow file.</sub>
-
 </div>
+
+> ⚙️ **To activate the snake:** Add this GitHub Actions workflow to your repo at `.github/workflows/snake.yml`:
+>
+> ```yaml
+> name: Generate Snake
+> on:
+>   schedule:
+>     - cron: "0 0 * * *"
+>   workflow_dispatch:
+> jobs:
+>   generate:
+>     runs-on: ubuntu-latest
+>     steps:
+>       - uses: Platane/snk/svg-only@v3
+>         with:
+>           github_user_name: Thuyavan28
+>           outputs: |
+>             dist/github-contribution-grid-snake.svg
+>             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+>       - uses: crazy-max/ghaction-github-pages@v3
+>         with:
+>           target_branch: output
+>           build_dir: dist
+>         env:
+>           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+> ```
 
 <br/>
 
